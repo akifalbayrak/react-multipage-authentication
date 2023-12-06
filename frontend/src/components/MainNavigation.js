@@ -58,7 +58,7 @@ function MainNavigation() {
                     )}
                 </ul>
             </nav>
-            <NewsletterSignup />
+            {!token && <NewsletterSignup />}
         </header>
     );
 }
